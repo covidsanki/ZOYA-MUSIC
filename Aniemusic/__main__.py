@@ -65,10 +65,10 @@ async def init():
     except:
         pass
     await Anie.decorators()
-    LOGGER("AnieMusic").info("Anie Music Bot Started Successfully")
+    LOGGER("AnieMusic").info("Zoya Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("AnieMusic").info("Stopping Anie Music Bot! GoodBye")
+    LOGGER("AnieMusic").info("Stopping Zoya Music Bot! GoodBye")
